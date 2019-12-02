@@ -1,6 +1,17 @@
+<div> 
+  <input type="search" placeholder="Digite aqui sua localização ou um produto especifico"  [(ngModel)]="search">
+
+  <div *ngFor="let p of product">
+    {{p.name}}
+  </div>
+ 
+</div>
+
+<br><br>
+
 <div class="row">
   <div class="small-12 medium-8 columns">
-    <h3>Pick your favourite juices...</h3>
+    <h3>Recomendações</h3>
     <ul class="product-list">
       <li *ngFor="let product of products | async"
           class="product-container">
@@ -12,32 +23,131 @@
             <div class="medium-9 columns">
               <h4>
                 <span class="text--bold js-product-name">{{product.name}}</span>
-                <small class="product_price js-product-price">{{product.price | currency:'GBP':true}}</small>
+                <small class="product_price js-product-price">{{product.price | currency:'BRL':true}}</small>
               </h4>
               <p class="js-product-desc">{{product.description}}</p>
               <p>
-                <span class="text--bold">ingredients:</span>
+                <span class="text--bold">Você encontra em:</span>
                 <br/>
                 <span *ngFor="let ingredient of product.ingredients ">
-                  {{ingredient.name}} ({{ingredient.percentage}}%)
+                  {{ingredient.name}} 
                   <br/>
                 </span>
               </p>
+              <span>Estão pertinho de você </span>
               <p>
                 <button type="button"
                         class="button success large js-btn-add"
-                        (click)="addProductToCart(product, 1)">Add To Cart</button>
+                        (click)="addProductToCart(product, 1)">Adicionar a lista</button>
                 <button type="button"
                         class="button small js-btn-remove"
                         *ngIf="productInCart(product) | async"
-                        (click)="removeProductFromCart(product, 1)">Remove item from cart</button>
+                        (click)="removeProductFromCart(product, 1)">Remover</button>
               </p>
             </div>
           </div>
       </li>
     </ul>
   </div>
+
+  
   <div class="small-12 medium-4 columns">
     <app-shopping-cart></app-shopping-cart>
+    <div>
+      <div style="width: 100%"><iframe 
+        width="100%" 
+        height="400"
+         src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Universidade%20Cat%C3%B3lica%20do%20Salvador%2C%20university%2C%20Salvador%2C%20Brazil+(Voc%C3%AA%20)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" 
+         frameborder="0"
+          scrolling="no" 
+          marginheight="0" m
+          arginwidth="0">
+          <a href="https://www.maps.ie/coordinates.html">
+            latitude longitude finder</a>
+          </iframe>
+        </div>
+      <br />
   </div>
+
+
 </div>
+
+
+<div>
+    <br><br><br><br><br><br><br><br>
+  <h1> Lojas Parceiras </h1>
+</div> 
+<div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4">
+      <div class="card">
+        <img src="../assets/americanas.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lojas Americanas</h5> 
+          <hr>
+          <div class="row">
+              <div class="col-sm">
+                  De segunda a sábado: 9h às 22h <br>
+                  Domingos e Feriados: 13h às 21h
+              </div>
+              <div class="col-sm">
+               Em: 2km 
+              </div>
+            </div>        
+          </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="../assets/magazine.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Magazine Luiza</h5>
+          <hr>
+          <div class="row">
+              <div class="col-sm">
+               De segunda a sábado: 9h às 22h <br>
+              Domingos e feriados: 12h às 21h
+              </div>
+              <div class="col-sm">
+               Em: 15km 
+              </div>
+            </div>        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="../assets/casasbahia.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Casas Bahia</h5>
+          <hr>
+          <div class="row">
+              <div class="col-sm">
+               De segunda a sábado: 8h às 18h <br>
+              Domingos e feriados: Não funciona
+              </div>
+              <div class="col-sm">
+               Em: 8km 
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="../assets/fastshop.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fast Shop</h5>
+          <hr>
+          <div class="row">
+              <div class="col-sm">
+               De segunda a sábado: 9h às 22h <br>
+              Domingos e feriados: Não funciona
+              </div>
+              <div class="col-sm">
+               Em: 3km 
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,116 +1,120 @@
 [
   {
     "id": "9aa113b4-1e4e-4cde-bf9d-8358fc78ea4f",
-    "price": 3.50,
-    "name": "Greens",
-    "description": "Looking for simple, clean and green? Four of the most nutrient dense leafy greens create the base in our low-sugar Greens 1.",
+    "price": 6999.99,
+    "name": "Notebook Gamer Dell G5 15",
+    "description": "Design imponente de 2,4 cm de espessura com teclado RGB e performance extrema com as mais recentes placa de vídeo NVIDIA® até RTX™ 2060 com tecnologia Ray Tracing + processadores Intel® Core™ de 9ª geração. Tudo isso em uma tela com 300 nits e até 144 Hz (em configuração selecionada) para uma resolução monstruosa e tecnologia Alienware Command Center.",
     "ingredients": [
       {
-        "name": "cucumber",
+        "name": "Intel® Core™ i7-9750H",
         "percentage": 50
       },
       {
-        "name": "celery",
+        "name": "Placa de vídeo dedicada NVIDIA® GeForce® GTX 1660 Ti Max-Q com 6GB de GDDR6",
         "percentage": 20
       },
       {
-        "name": "apple",
+        "name": "Memória RAM de 16GB",
         "percentage": 20
       },
       {
-        "name": "lemon",
+        "name": "HD de 1TB  + SSD de 128GB ",
         "percentage": 10
       }
     ]
   },
   {
     "id": "bdcbe438-ac85-4acf-8949-5627fd5b57df",
-    "price": 2.75,
-    "name": "Citrus",
-    "description": "This enzyme rich juice is filled with phytonutrients and bromelin which helps to reduce inflammation. Drink it before a meal to get digestive juices flowing.",
+    "price": 3222.75,
+    "name": "Acer Spin 3",
+    "description": "NOTEBOOK OU TABLET? VOCÊ ESCOLHE.Suas dobradiças 360º e a tela sensível ao toque permitem que você escolha a forma como prefere usá-lo.",
     "ingredients": [
       {
-        "name": "pineapple",
+        "name": "Intel® Core™ i5-8250U",
         "percentage": 50
       },
       {
-        "name": "apple",
+        "name": "Intel® UHD Graphics 620",
         "percentage": 20
       },
       {
-        "name": "mint",
+        "name": "8 GB tipo DDR4 Não expansível (soldada)",
         "percentage": 20
       },
       {
-        "name": "lemon",
+        "name": "HD de 1 TB",
         "percentage": 10
       }
     ]
   },
   {
     "id": "58552daa-30f6-46fa-a808-f1a1d7667561",
-    "price": 3,
-    "name": "Roots",
-    "description": "Beets help your body to release stomach acid which aids digestion! Drink this juice when you want a snack that's both pretty and nutritious!",
+    "price": 831.50,
+    "name": "Notebook Positivo Motion",
+    "description": " Prático e veloz, com excelente capacidade de armazenamento memória RAM de 4GB e HD 64GB, além de um design inovador e exclusivo",
     "ingredients": [
       {
-        "name": "apple",
+        "name": "Intel Atom®",
         "percentage": 50
       },
       {
-        "name": "beetroot",
+        "name": "Não possui",
         "percentage": 20
       },
       {
-        "name": "ginger",
+        "name": "Mémoria RAM de 4GB",
         "percentage": 20
       },
       {
-        "name": "lemon",
+        "name": " HD de 500GB",
         "percentage": 10
       }
     ]
   },
   {
     "id": "d4666802-fd84-476f-9eea-c8dd29cfb633",
-    "price": 1.99,
-    "name": "Orange",
-    "description": "Orange juice with a twist to boost you health!",
+    "price": 3799.99,
+    "name": "Notebook Dell Inspiron",
+    "description": "O notebook ultrafino de 14 com design arrojado de borda fina, acabamento em alumínio e duas opções de cores. Tenha performance superior com processadores Intel® Core™ de 8ª geração, placa de vídeo dedicada, opções com SSD e até 16GB de memória.",
     "ingredients": [
       {
-        "name": "orange",
+        "name": "Intel® Core™ i5-8265U",
         "percentage": 50
       },
       {
-        "name": "lemon",
+        "name": " NVIDIA® MX150 com 2GB de GDDR5",
         "percentage": 20
       },
       {
-        "name": "apple",
+        "name": "Memória RAM de 8GB",
         "percentage": 20
       },
       {
-        "name": "tumeric",
+        "name": "HD de 1TB",
         "percentage": 10
       }
     ]
   },
   {
     "id": "7ef3b9dd-5a95-4415-af37-6871d6ff0262",
-    "price": 2.50,
-    "name": "Coconut",
-    "description": "Cinnamon lovers - this is your blend! Two nutritional powerhouses combine in a delicious, satiating elixir. Both cinnamon and coconut have been shown to reduce blood sugar. Raw coconut meat is a great source of medium chain fatty acids, which can lower bad cholesterol. Coconut also contains significant levels of fiber and manganese, a mineral that helps you metabolize fat and protein.",
+    "price": 1390.30,
+    "name": "Samsung Essentials",
+    "description": " esenvolvido para quem busca um notebook de alta qualidade, com design elegante e detalhes que surpreendem. Seja para uso individual ou para compartilhar com a família",
     "ingredients": [
       {
-        "name": "Coconut",
+        "name": " Intel® Celeron® 4205U ",
         "percentage": 70
       },
       {
-        "name": "Cinnamon",
+        "name": "Intel® HD Graphics 610",
         "percentage": 20
       },
       {
-        "name": "water",
+        "name": "Mémoria RAM de 4GB",
+        "percentage": 10
+      },
+      {
+        "name": "HD de 500GB",
         "percentage": 10
       }
     ]
